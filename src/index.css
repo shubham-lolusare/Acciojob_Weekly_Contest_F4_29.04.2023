@@ -1,7 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    font-family: "Inter";
+  }
+}
+
 * {
   box-sizing: border-box;
+  -ms-overflow-style: none;
+  scrollbar-width: 0px;
+}
+
+*::-webkit-scrollbar {
+  display: none;
 }
