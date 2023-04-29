@@ -39,7 +39,7 @@ export default function Cart() {
                   key={itemID}
                   className="flex justify-between text-lg sm:text-base"
                 >
-                  <li className="list-image-[url(https://icons.iconarchive.com/icons/saviourmachine/chat/16/shopping-girl-icon.png)]">
+                  <li className="list-inside list-image-[url(https://icons.iconarchive.com/icons/saviourmachine/chat/16/shopping-girl-icon.png)]">
                     {products[itemID - 1].title}
                   </li>
                   <span>${products[itemID - 1].price}</span>
