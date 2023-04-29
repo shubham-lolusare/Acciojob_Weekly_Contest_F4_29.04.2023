@@ -1,3 +1,5 @@
+// This slice defines the logic for the product slice of store
+
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
 let initialState = {

@@ -1,3 +1,5 @@
+// This is the logo component which contains the svg for the logo that is displayed on top-left corner
+
 const logo = (
   <svg
     height="40"

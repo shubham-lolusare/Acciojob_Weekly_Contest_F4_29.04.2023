@@ -1,3 +1,5 @@
+// This componet displays the navbar on both the pages i.e HomePage and Cart components
+
 import { Link } from "react-router-dom";
 import logo from "./logo";
 import home from "../../assets/home.svg";

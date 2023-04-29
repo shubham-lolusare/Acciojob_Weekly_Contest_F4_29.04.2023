@@ -1,3 +1,5 @@
+// This slice define the entire logic for myCart slice
+
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = [];

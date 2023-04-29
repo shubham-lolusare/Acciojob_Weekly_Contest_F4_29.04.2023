@@ -1,3 +1,6 @@
+// This page shows the Home page component.
+// After rendering it fetches the data from dummyJSON server and displays the products
+
 import { useEffect } from "react";
 import ProductList from "./ProductList";
 import { useSelector, useDispatch } from "react-redux";

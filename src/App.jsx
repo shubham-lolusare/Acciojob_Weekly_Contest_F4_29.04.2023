@@ -1,3 +1,7 @@
+// This component will display two pages in place of outlet.
+// The Home page and the cart page
+// The navbar component is kept common for both the pages
+
 import { Outlet } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 

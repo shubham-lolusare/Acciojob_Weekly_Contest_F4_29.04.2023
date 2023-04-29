@@ -1,3 +1,5 @@
+// This component is the wrapper around the Product components to dislpay on the homepage
+
 import { useSelector } from "react-redux";
 import Product from "./Product";
 

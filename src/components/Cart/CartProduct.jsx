@@ -1,3 +1,5 @@
+// This component displays the individual product card of the cart page
+
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart, removeFromCart } from "../Cart/cartSlice";
 

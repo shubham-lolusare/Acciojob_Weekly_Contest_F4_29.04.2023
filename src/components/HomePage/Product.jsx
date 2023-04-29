@@ -1,3 +1,6 @@
+// This is the component which is used by the hompage ProductList component to show the fetched products card
+// Here the add to cart and remove from cart functionality is added
+
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart, removeFromCart } from "../Cart/cartSlice";
 

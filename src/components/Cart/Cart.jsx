@@ -1,3 +1,5 @@
+// This cart component is responsible to display the entire cart page
+
 import { useSelector, useDispatch } from "react-redux";
 import CartProduct from "./CartProduct";
 import { resetCart } from "./cartSlice";
