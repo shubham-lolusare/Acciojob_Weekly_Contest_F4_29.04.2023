@@ -15,7 +15,7 @@ export default function Product({ data }) {
   }
 
   return (
-    <div className="border-2 border-pink-950 w-[280px] h-[400px] text-lg flex flex-col justify-between">
+    <div className="border-2 border-pink-950 w-[260px] h-[400px] text-lg flex flex-col justify-between">
       <div
         name="image"
         className="border-b-2 border-b-pink-950 flex justify-center"

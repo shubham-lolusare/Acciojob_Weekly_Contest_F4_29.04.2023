@@ -11,7 +11,7 @@ export default function ProductList() {
       <h1 className="text-center text-5xl font-bold text-pink-950">
         All Items
       </h1>
-      <div className="w-[80%] self-center flex flex-wrap gap-6 md:w-full justify-center">
+      <div className="w-[80%] self-center flex flex-wrap gap-4 md:w-full justify-center">
         {products.map((product) => {
           return <Product key={product.id} data={product} />;
         })}
